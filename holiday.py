@@ -3,7 +3,7 @@
 
 print("\nWelcome to the StoryMaker cost calculator.")
 print("\nWhich city takes your fancy? This year we have these destinations:")
-print("\n1: Osaka, 2: Cairo, 3: Phuket, 4: Peru, 5: Abu Dhabi, 6: Rome")
+print("\n1: Hangzhou, 2: Toulouse, 3: Tokyo, 4: Abu Dhabi, 5: Jordan")
 
 city_flight = int(input("\nJust enter the number for your desired city:"))
 num_nights = int(input("\nHow many nights will you be staying at the hotel?"))
