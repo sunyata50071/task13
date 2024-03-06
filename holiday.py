@@ -11,17 +11,15 @@ num_nights = int(input("\nHow many nights will you be staying at the hotel?"))
 def plane_cost(city_flight):
     """Calculates the flight cost."""
     if city_flight == 1:
-        return 1270
+        return 820
     elif city_flight == 2:
-        return 699
+        return 1100
     elif city_flight == 3:
-        return 900
+        return 980
     elif city_flight == 4:
-        return 470 
-    elif city_flight == 5:
-        return 1300
+        return 612
     else:
-        return 300
+        return 490
     
 def hotel_cost(num_nights):
     """Calculates the hotel accommodation fees."""
